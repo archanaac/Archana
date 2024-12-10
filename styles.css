@@ -1,0 +1,114 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff; /* Set background to white */
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Outer Container with Aqua Blue Background */
+  .outer-container {
+    background-color: #6e7171; /* Aqua blue background */
+    padding: 30px 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    text-align: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Main Section */
+  #main {
+    padding: 30px 0;
+  }
+  
+  /* Layout for Stacked Rows (1 Column Layout) */
+  .box {
+    background: #fff; /* White background for the boxes */
+    padding: 20px;
+    margin-bottom: 20px; /* Space between rows */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .project {
+    margin-top: 20px;
+  }
+  
+  .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    text-decoration: none;
+    color: #333;
+    background: #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .project a:hover {
+    background: #aaa;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .box {
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  }
+  
